@@ -31,7 +31,7 @@ $(function () {
       data: {
         avatar: dataURL,
       },
-      success: function (res) {~
+      success: function (res) {
         if (res.status !== 0)
           return layui.layer.msg("更换头像失败", { icon: 5 });
         layui.layer.msg("更换头像成功", { icon: 6 });
